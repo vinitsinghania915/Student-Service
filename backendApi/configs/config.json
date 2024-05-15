@@ -1,0 +1,11 @@
+{
+    "PORT":4000,
+    "mysql" : {
+        "host": "localhost",
+        "user": "root",
+        "password": "Test@123",
+        "port": "3306",
+        "database" : "student",
+        "connectionLimit": 100
+    }
+}

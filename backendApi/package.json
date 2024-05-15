@@ -1,0 +1,29 @@
+{
+  "name": "student-data-service",
+  "version": "1.0.0",
+  "description": "It gives the student details with pagination and you can also filter based on differnet column",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinitsinghania915/Student-Service.git"
+  },
+  "author": "Vinit Singhania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinitsinghania915/Student-Service/issues"
+  },
+  "homepage": "https://github.com/vinitsinghania915/Student-Service#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.11.0"
+  }
+}
